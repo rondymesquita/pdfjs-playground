@@ -9,6 +9,7 @@
     // The workerSrc property shall be specified.
     // pdfjsLib.GlobalWorkerOptions.workerSrc = "./node_modules/pdfjs-dist/build/pdf.worker.js";
     pdfjsLib.GlobalWorkerOptions.workerSrc = "./pdf.worker.js";
+    pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.2/pdf.worker.js";
 
     // Asynchronous download of PDF
     // pdfjsLib.disableAutoFetch = true
