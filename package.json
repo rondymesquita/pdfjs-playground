@@ -1,0 +1,20 @@
+{
+  "name": "pdf-js-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch ./ --exec 'npm run serve'",
+    "serve": "serve -l 9001 ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.11",
+    "serve": "^11.0.0"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^2.0.943"
+  }
+}
